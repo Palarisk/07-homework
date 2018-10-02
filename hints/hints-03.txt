@@ -143,10 +143,10 @@ For your x axis, it might look nicer if you remove the commas and get rid of som
 
 
 
-Usually you just have 'datapoints', but this time you have multiple files, so your .data(----) stuff is going to look a little bit different.
+ Usually you just have 'datapoints', but this time you have multiple files, so your .data(----) stuff is going to look a little bit different.
 
 
-
+s
 
 
 

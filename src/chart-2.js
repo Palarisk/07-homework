@@ -70,7 +70,7 @@ function ready(datapoints) {
       return d.Year
     })
     .entries(datapoints)
-  console.log(nested)
+//  console.log(nested)
 
   container
     .selectAll('.fert-graph')
@@ -107,7 +107,7 @@ function ready(datapoints) {
           return +d.ASFR_us
         })
         .toFixed(2)
-      console.log(sumUs)
+     // console.log(sumUs)
 
       svg
         .append('text')

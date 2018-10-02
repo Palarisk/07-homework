@@ -158,22 +158,6 @@ function ready(datapoints) {
       return 3
     })
 
-  /*
-    // console.log(months)
-    // .attr('x', 100)
-    // xPositionScale(months[months.length - 1]))
-    */
-  /*
-    .attr('y', 1)
-
-    .attr('x', function(d) {
-      console.log(d.values)
-      var lastDate = d.values.find(function(d) {
-        return d.datetime == 1
-      })
-      return xPositionScale(lastDate.month)
-    })
-*/
   // Add your title
 
   svg
@@ -220,6 +204,7 @@ function ready(datapoints) {
     .attr('class', 'axis y-axis')
     .call(yAxis)
 
-  //  svg.select('.axis').lower()
-  //  svg.selectAll('.domain').remove()
+
 }
+export { xPositionScale, yPositionScale, colorScale, line, width, height, parseTime  }
+
