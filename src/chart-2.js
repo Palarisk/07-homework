@@ -24,7 +24,9 @@ var yPositionScale = d3
 
 // Create a d3.line function that uses your scales
 
-var line = d3
+
+// You don't really need this, do you? It works with just d3.area as well
+  var line = d3
   .line()
   .x(function(d) {
     return xPositionScale(d.Age)
@@ -32,6 +34,9 @@ var line = d3
   .y(function(d) {
     return yPositionScale(d.ASFR_us)
   })
+
+ 
+
 
 var areaUs = d3
   .area()
@@ -156,3 +161,5 @@ function ready(datapoints) {
         .call(yAxis)
     })
 }
+
+export { xPositionScale, yPositionScale, line, width, height }

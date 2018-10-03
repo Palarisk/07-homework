@@ -138,3 +138,5 @@ function ready([allcountries, usa]) {
         .attr('font-weight', 'bold')
     })
 }
+
+export { xPositionScale, yPositionScale, line, width, height }

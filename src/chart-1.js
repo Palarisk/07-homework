@@ -189,7 +189,7 @@ function ready(datapoints) {
     .lower()
 
   // Add your axes
-  var xAxis = d3.axisBottom(xPositionScale).tickFormat(d3.timeFormat('%b-%y'))
+  var xAxis = d3.axisBottom(xPositionScale).tickFormat(d3.timeFormat('%b %y'))
 
   svg
     .append('g')
